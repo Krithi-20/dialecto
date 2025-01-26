@@ -6,10 +6,7 @@ This project is a complete video language translation solution that uses advance
 Tools & Libraries:
 
 FFmpeg
-
 OpenAI Whisper API
-
 Hugging Face Transformers
-
 Python for backend scripting and workflow automation
 
