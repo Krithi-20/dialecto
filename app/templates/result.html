@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation & Subtitles Generated</title>
+</head>
+<body>
+    <h1>Video Processed Successfully</h1>
+    <p>File: {{ filename }}</p>
+    <p>Click the link below to download the translated video with subtitles:</p>
+    <a href="{{ url_for('static', filename='output_video_with_subtitles.mp4') }}" download>Download Video</a>
+    
+</body>
+</html>
